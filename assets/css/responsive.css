@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px)
+{
+  #header{
+    background: rgba(111,153,141,1);
+    width: auto;
+    height: 120px;
+  }
+
+ .logo{
+   width: 200px;
+   margin: 0 auto;
+ }
+ . logo .name{
+   float: left;
+ }
+ .menu {
+   width: 380px;
+   margin: 0 auto;
+   top: 70px;
+ }
+ .menu ul li{
+   margin: 0 auto;
+ }
+
+  .photos .common{
+    display: block;
+  }
+  .photos .common:nth-child(1){
+    margin-top: 16px;
+  }
+
+  .opacity{
+    height: 600px;
+  }
+
+  .opacity .photos{
+    width: 150px;
+    margin: 0 auto;
+    
+  }
+
+  .photos .common{
+    margin-bottom: 20px;
+  }
+}
